@@ -1,0 +1,29 @@
+.Name{
+	position: fixed;
+	left: 120px;
+	background-color: aqua;
+	
+}
+h2{
+	position: fixed;
+	right: 40px;
+}
+
+.about {
+	padding-right: 270px;
+
+}
+.portfolio{
+	padding-right: 170px;
+
+}
+.contact{
+	padding-right: 80px;
+
+}
+
+p{
+	padding-top: 120px;
+	padding-left: 120px;
+	padding-right: 120px;
+}
