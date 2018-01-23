@@ -1,29 +1,54 @@
-.Name{
-	position: fixed;
-	left: 120px;
-	background-color: aqua;
+body{
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/polka-dots.png);
 	
 }
-h2{
-	position: fixed;
-	right: 40px;
-}
-
-.about {
-	padding-right: 270px;
+.myHeader{
+	display: flex;
+	background-color: gray;
 
 }
-.portfolio{
-	padding-right: 170px;
-
+.logo{
+	/* background-color: #4aaaa5; */
+	color: #ffffff;
+	margin-left: 125px;
+	margin-top: 5px;
+	font-size: 325%;
 }
-.contact{
-	padding-right: 80px;
-
+.myNav{
+	background-color: gray;
+	flex-grow: 1;
+}
+.myNav-ul{
+	display: flex;
+  justify-content: flex-end;
+	margin-right: 145px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	font-size: 150%;
+	
 }
 
-p{
-	padding-top: 120px;
-	padding-left: 120px;
-	padding-right: 120px;
+.myNav-li{
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+.connect{
+	display: flex;
+	justify-content: center;
+	background-color: gray;
+	color: #ffffff;
+	font-size: 175%;
+	margin-left: 1425px;
+	margin-top: 30px;
+	margin-right: 145px;
+	padding-bottom: 145px;
+  padding-top: 15px;
+}
+
+.github{
+	float: right;
+	margin-top: -110px;
+	margin-right: 150px;
+	width: 100px;
 }
