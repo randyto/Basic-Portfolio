@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- V2 because the first index.html would not work correctly when clicking between links. All of the css would shift around.  -->
 <head>
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -10,40 +10,32 @@
 	<title>Basic Portfolio</title>
 </head>
 <style>
-	.contactMe {
+	.bio {
 		background-color: gray;
 		color: #ffffff;
 		font-size: 175%;
 		margin-left: 300px;
 		margin-right: 500px;
 		margin-top: -188px;
-		margin-bottom: 25px;
 		padding-top: 15px;
 		padding-left: 25px;
-		padding-right: 20px;
 		padding-bottom: 25px;
-
 	}
 
-	.messageText {
-		height: 150px;
-	}
-
-	input {
-		width: 645px;
-		margin-right: 20px;
+	.insideBio {
 		font-size: 75%;
-		padding-bottom: 5px;
+		display: flex;
+		align-content: space-around;
+
 	}
 
-	input[type=submit] {
-		background-color: white;
-		border: none;
-		color: gray;
-		padding: 16xp 32px;
-		text-decoration: none;
-		margin: 4px 2px;
-		cursor: pointer;
+	.profile {
+		padding-right: 20px;
+		float: left;
+	}
+
+	.p {
+		float: left;
 	}
 </style>
 
@@ -69,37 +61,19 @@
 	<img class="linkedin" src="https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/LinkedIn-256.png" alt="LinkedIn">
 	<img class="twitter" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-256.png" alt="Twitter">
 
+	<div class="bio">
+		About Me
+		<br>
+		<br>
+		<div class="insideBio">
 
-	<div class="contactMe">
-		Contact Me
-
-		<br>
-		<form class="contactME"></form>
-		<br>
-		<p>
-			<label class="name">Name:</label>
-			<br>
-			<input type="text" required>
-
-		</p>
-		<br>
-		<p>
-			<label class="email">Email:</label>
-			<br>
-			<input type="text" requried>
-		</p>
-		<br>
-		<p>
-			<label class="message">Message:</label>
-			<br>
-			<input class="messageText" type="text" required>
-		</p>
-
-		<br>
-		<input type="submit" value="Submit"> 
-		<br>
+			<img class="profile" src="assets/images/Profile.jpg" alt="Profile" height="250">
+			<p> 
+				Hello World! My name is Randy To, I am 21 years old. Although Randall is not my given name I actually perfer it because it is a fun name to use. <br> <br>
+				By day I work at the Best Buy in Murray as the Microsoft Expert and by night I nerd out on Star Wars and LEGOs. Also huge gamer as a recently built my own gaming pc and own a PS4. <br><br>
+				Enjoy my medicore website that I put together for you! Goodbye World!</p>
+		</div>
 	</div>
-
 </body>
 
 

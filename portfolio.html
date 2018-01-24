@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -8,15 +9,149 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Basic Portfolio</title>
 </head>
+<style>
+	.portfolio {
+		background-color: gray;
+		color: #ffffff;
+		font-size: 175%;
+		margin-left: 300px;
+		margin-right: 500px;
+		margin-top: -188px;
+		margin-bottom: 25px;
+		padding-top: 15px;
+		padding-left: 25px;
+		padding-right: 20px;
+		padding-bottom: 25px;
+	}
+
+	.pic-1,
+	.pic-2,
+	.pic-3,
+	.pic-4,
+	.pic-5 {
+		height: 150px;
+
+	}
+
+	.pics {
+		/* background: black; */
+		margin-right: 500px;
+		display: flex;
+		justify-content: space-around;
+		font-size: 75%;
+		margin-top: 25px;
+	}
+
+	.pic-1 {
+		margin-left: 225px;
+
+	}
+
+	.pic-2 {
+		margin-left: 75px;
+		margin-right: -475px;
+	}
+
+	.pic-3 {
+		margin-top: 185px;
+
+	}
+
+	.pic-4 {
+		margin-top: 185px;
+		margin-left: 75px;
+	}
+
+	.pic-5 {
+		margin-top: 370px;
+		margin-left: -475px;
+	}
+
+	.text{
+		margin-right: 500px;
+		display: flex;
+		justify-content: space-around;
+		font-size: 75%;
+		margin-top: -395px;
+		font:bold;		
+	}
+	.hangman {
+		
+		margin-left: 210px;
+		margin-right: 105px;
+
+	}
+
+	.rpg{
+		margin-left: 115px;
+		margin-right: -325px;
+	}
+
+	.trivia{
+		margin-top: 185px;
+
+	}
+
+	.widget{
+		margin-top: 185px;
+		margin-left: 225px;
+	}
+
+	.rps{
+		margin-top: 330px;
+		margin-left: -335px;
+	}
+</style>
+
 <body>
-		<header class="myHeader">
-				<div class="logo">Randy To</div>
-				<nav class="myNav">
-					<ul class="myNav-ul">
-						<li class="myNav-li"><a href="index.html">Home</a></li>
-						<li class="myNav-li"><a href="portfolio.html">Portfolio</a></li>
-						<li class="myNav-li"><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
+	<header class="myHeader">
+		<div class="logo">Randy To</div>
+		<nav class="myNav">
+			<ul class="myNav-ul">
+				<li class="myNav-li">
+					<a href="index-v2.html">Home</a>
+				</li>
+				<li class="myNav-li">
+					<a href="portfolio.html">Portfolio</a>
+				</li>
+				<li class="myNav-li">
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="connect">Connect With Me</div>
+	<img class="github" src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-256.png" alt="Github">
+	<img class="linkedin" src="https://cdn3.iconfinder.com/data/icons/peelicons-vol-1/50/LinkedIn-256.png" alt="LinkedIn">
+	<img class="twitter" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-256.png" alt="Twitter">
+
+
+	<div class="portfolio">Portfolio
+		<br>
+		<div class="pics">
+			<br>
+			<img class="pic-1" src="http://lorempixel.com/output/abstract-q-c-640-480-7.jpg" alt="hangman">
+
+			<br>
+			<img class="pic-2" src="http://lorempixel.com/output/abstract-q-c-640-480-6.jpg" alt="rpg">
+
+			<br>
+			<img class="pic-3" src="http://lorempixel.com/output/abstract-q-g-640-480-5.jpg" alt="trivia">
+			<br>
+			<img class="pic-4" src="http://lorempixel.com/output/abstract-q-g-640-480-3.jpg" alt="widget">
+			<br>
+			<img class="pic-5" src="http://lorempixel.com/output/abstract-q-g-640-480-10.jpg" alt="rps">
+			<br>
+		</div>
+		<div class="text">
+			<p class="hangman">Hangman</p>
+			<p class="rpg">RPG</p>
+			<p class="trivia">Trivia</p>
+			<p class="widget">Widget</p>
+			<p class="rps">Rock Paper Scissors</p>
+		</div>
+	</div>
+
 </body>
+
 </html>
